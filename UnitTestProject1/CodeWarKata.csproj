@@ -55,6 +55,7 @@
   </Choose>
   <ItemGroup>
     <Compile Include="BingoCard\BingoCard.cs" />
+    <Compile Include="BingoCard\BingoCardTests.cs" />
     <Compile Include="Fruit Machine.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="UnitTest.cs" />

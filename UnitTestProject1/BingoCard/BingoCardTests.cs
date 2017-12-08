@@ -6,11 +6,13 @@ using System.Text.RegularExpressions;
 
 namespace CodeWarKata
 {
-    public class BingoCard
+    [TestFixture]
+    public class BingoCardTests
     {
-        public static string[] GetCard()
+        [Test]
+        public void CardHas24Numbers()
         {
-            return new string[24];
+            Assert.AreEqual(24, BingoCard.GetCard().Length);
         }
     }
 }
