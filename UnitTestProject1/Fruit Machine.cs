@@ -2,7 +2,7 @@
 using System.Linq;
 using NUnit.Framework;
 
-namespace UnitTestProject1
+namespace CodeWarKata
 {
     public class SlotsMachine
     {
