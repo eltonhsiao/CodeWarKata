@@ -9,25 +9,55 @@ namespace MorseCodeDecoder
 {
     public class MorseCodeDecoder
     {
+        private static Dictionary<string, char> MorseCodesLettersAndNumerals = new Dictionary<string, char>()
+        {
+            {".-", 'A'},
+            {"-...", 'B'},
+            {"-.-.", 'C'},
+            {"-..", 'D'},
+            {".", 'E'},
+            {"..-.", 'F'},
+            {"--.", 'G'},
+            {"....", 'H'},
+            {"..", 'I'},
+            {".---", 'J'},
+            {"-.-", 'K'},
+            {".-..", 'L'},
+            {"--", 'M'},
+            {"-.", 'N'},
+            {"---", 'O'},
+            {".--.", 'P'},
+            {"--.-", 'Q'},
+            {".-.", 'R'},
+            {"...", 'S'},
+            {"-", 'T'},
+            {"..-", 'U'},
+            {"...-", 'V'},
+            {".--", 'W'},
+            {"-..-", 'X'},
+            {"-.--", 'Y'},
+            {"--..", 'Z'},
+            {"-----", '0'},
+            {".----", '1'},
+            {"..---", '2'},
+            {"...--", '3'},
+            {"....-", '4'},
+            {".....", '5'},
+            {"-....", '6'},
+            {"--...", '7'},
+            {"---..", '8'},
+            {"----.", '9'},
+        };
+
         public static string Decode(string morseCode)
         {
-            var morseCodesLettersAndNumerals = new Dictionary<string, string>()
-            {
-                {"....", "H"},
-                {".", "E"},
-                {"-.--", "Y"},
-                {".---", "J"},
-                {"..-", "U"},
-                {"-..", "D"}
-            };
-
-            var words = Regex.Split(morseCode, @"\s{2,}");
+            var words = Regex.Split(morseCode.Trim(), @"\s\s+");
             string pureText = string.Empty;
             foreach (var word in words)
             {
                 foreach (var morse in word.Split(' '))
                 {
-                    pureText += morseCodesLettersAndNumerals[morse];
+                    pureText += MorseCodesLettersAndNumerals[morse];
                 }
                 
                 pureText += " ";
