@@ -43,6 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="MorseCode.cs" />
     <Compile Include="MorseCodeDecoder.cs" />
     <Compile Include="MorseCodeDecoderTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
