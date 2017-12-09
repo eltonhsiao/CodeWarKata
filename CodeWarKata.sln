@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeWarKata", "CodeWarKata\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BingoCard", "BingoCard\BingoCard.csproj", "{D07DB2F6-20CF-48DF-85E7-9D1389C230FB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MorseCodeDecoder", "MorseCodeDecoder\MorseCodeDecoder.csproj", "{9E73D7B9-504D-4BD3-814F-3871657788A2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{D07DB2F6-20CF-48DF-85E7-9D1389C230FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D07DB2F6-20CF-48DF-85E7-9D1389C230FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D07DB2F6-20CF-48DF-85E7-9D1389C230FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E73D7B9-504D-4BD3-814F-3871657788A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E73D7B9-504D-4BD3-814F-3871657788A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E73D7B9-504D-4BD3-814F-3871657788A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E73D7B9-504D-4BD3-814F-3871657788A2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
