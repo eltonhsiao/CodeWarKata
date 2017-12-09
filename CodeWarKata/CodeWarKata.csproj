@@ -54,8 +54,6 @@
     </Otherwise>
   </Choose>
   <ItemGroup>
-    <Compile Include="BingoCard\BingoCard.cs" />
-    <Compile Include="BingoCard\BingoCardTests.cs" />
     <Compile Include="FruitMachine\Fruit Machine.cs" />
     <Compile Include="NextBiggerNumber\NextBiggerNumber.cs" />
     <Compile Include="UnitTest.cs" />

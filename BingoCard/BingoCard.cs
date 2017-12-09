@@ -1,11 +1,8 @@
-﻿using NUnit.Framework;
-using System;
-using System.Linq;
+﻿using System;
 using System.Collections.Generic;
-using System.Security.Cryptography;
-using System.Text.RegularExpressions;
+using System.Linq;
 
-namespace CodeWarKata
+namespace BingoCard
 {
     public class BingoCard
     {
@@ -17,10 +14,10 @@ namespace CodeWarKata
             var GNumbers = BingoNumberGenerator(start: 46, end: 60, count: 5);
             var ONumbers = BingoNumberGenerator(start: 61, end: 75, count: 5);
             return BNumbers.Select(x => "B" + x.ToString()).Concat(
-                   INumbers.Select(x => "I" + x.ToString()).Concat(
-                   NNumbers.Select(x => "N" + x.ToString()).Concat(
-                   GNumbers.Select(x => "G" + x.ToString()).Concat(
-                   ONumbers.Select(x => "O" + x.ToString()))))).ToArray();
+                INumbers.Select(x => "I" + x.ToString()).Concat(
+                    NNumbers.Select(x => "N" + x.ToString()).Concat(
+                        GNumbers.Select(x => "G" + x.ToString()).Concat(
+                            ONumbers.Select(x => "O" + x.ToString()))))).ToArray();
         }
 
         private static List<int> BingoNumberGenerator(int start, int end, int count)

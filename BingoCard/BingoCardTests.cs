@@ -1,10 +1,9 @@
-﻿using NUnit.Framework;
-using System;
+﻿using System;
 using System.Linq;
-using System.Collections.Generic;
 using System.Text.RegularExpressions;
+using NUnit.Framework;
 
-namespace CodeWarKata
+namespace BingoCard
 {
     [TestFixture]
     public class BingoCardTests

@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.27130.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeWarKata", "CodeWarKata\CodeWarKata.csproj", "{994B071F-70E2-4A45-800B-53F0D30E96BE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BingoCard", "BingoCard\BingoCard.csproj", "{D07DB2F6-20CF-48DF-85E7-9D1389C230FB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{994B071F-70E2-4A45-800B-53F0D30E96BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{994B071F-70E2-4A45-800B-53F0D30E96BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{994B071F-70E2-4A45-800B-53F0D30E96BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D07DB2F6-20CF-48DF-85E7-9D1389C230FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D07DB2F6-20CF-48DF-85E7-9D1389C230FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D07DB2F6-20CF-48DF-85E7-9D1389C230FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D07DB2F6-20CF-48DF-85E7-9D1389C230FB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
